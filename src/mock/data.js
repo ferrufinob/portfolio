@@ -30,27 +30,27 @@ export const projectsData = [
     id: nanoid(),
     img: 'Bookmarkd.png',
     title: 'Bookmarkd',
-    info: '',
-    info2: '',
-    url: '',
+    info: 'A Pinterest inspired Single Page Application that allows users to create boards and pins.',
+    info2: 'Utilizes ReactJS, Rails API, Redux, Styled Components and JWT Authentication',
+    url: 'https://www.youtube.com/watch?v=Sfp5V6rF3bw',
     repo: 'https://github.com/ferrufinob/Bookmarkd_Frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'StudyNook.png',
     title: 'StudyNook',
-    info: '',
-    info2: '',
-    url: '',
+    info: 'A Flash Card Single Page Application that allows users to create flashcards for provided categories.',
+    info2: 'Built with Vanilla JavaScript(AJAX), OOJS, Rails API, HTML, and CSS',
+    url: 'https://www.youtube.com/watch?v=PU-2arRZUd0',
     repo: 'https://github.com/ferrufinob/StudyNook-frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'Chocoholic.png',
     title: 'Chocoholic',
-    info: '',
-    info2: '',
-    url: '',
+    info: 'A Chocolate sharing application for chocolate lovers. Users can create posts and share details on chocolates they have tried and leave reviews. ',
+    info2: 'Utilizes Authentication with BCrypt and Google OAuth, Rails, Ruby, SQL, HTML, and CSS',
+    url: 'https://www.youtube.com/watch?v=bfDzksT0hW4',
     repo: 'https://github.com/ferrufinob/Chocoholic', // if no repo, the button will not show up
   },
 ];
@@ -72,7 +72,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
+      name: 'medium',
       url: '',
     },
     {
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
