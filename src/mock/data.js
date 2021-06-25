@@ -21,7 +21,8 @@ export const aboutData = {
   paragraphOne: 'Detail-oriented Full Stack Software Engineer',
   paragraphTwo:
     'I am a passionate learner and problem solver, which sparked my curiosity in software engineering because it is continuously evolving with new technologies and new engineering trends. I value team work and believe that it creates more opportunities for creative ideas, better problem solving approaches and great learning opportunities. ',
-  paragraphThree: 'Technologies Include: JavaScript, ReactJS, Rails, Redux, SQL, HTML, and CSS',
+  paragraphThree:
+    'Technologies Include: JavaScript, AJAX, ReactJS, Rails, Redux, SQL, HTML, and CSS.',
   resume: 'https://drive.google.com/file/d/1kRSSL1c7RL1J8-xXVe-TpJXkN8Szvj48/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -31,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Bookmarkd.png',
     title: 'Bookmarkd',
-    info: 'A Pinterest inspired Single-Page application that allows users to create boards and pins.',
+    info: 'A Pinterest inspired Single-Page Application that allows users to create boards and pins.',
     info2:
       'Utilizes ReactJS, Rails API, Redux, Styled Components, Material-UI Icons, and JWT Authentication.',
     url: 'https://www.youtube.com/watch?v=Sfp5V6rF3bw',
