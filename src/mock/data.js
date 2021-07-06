@@ -68,11 +68,11 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/BrendaFerrufin4',
+    },
     {
       id: nanoid(),
       name: 'medium',
