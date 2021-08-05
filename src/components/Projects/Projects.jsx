@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'A Pinterest inspired Single-Page Application that allows users to create boards and pins.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://www.youtube.com/watch?v=Sfp5V6rF3bw'}
                       >
                         Demo Video
                       </a>
