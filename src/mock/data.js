@@ -44,7 +44,7 @@ export const projectsData = [
     title: 'StudyNook',
     info: 'A Flash Card Single-Page Application that allows users to create flashcards for provided categories.',
     info2: 'Built with Vanilla JavaScript(AJAX), OOJS, Rails API, HTML, and CSS.',
-    url: 'https://www.youtube.com/watch?v=PU-2arRZUd0',
+    url: 'https://studynook-flashcards.netlify.app/',
     repo: 'https://github.com/ferrufinob/StudyNook-frontend', // if no repo, the button will not show up
   },
   {

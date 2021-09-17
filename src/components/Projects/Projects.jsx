@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || 'https://www.youtube.com/watch?v=Sfp5V6rF3bw'}
                       >
-                        Demo Video
+                        Demo
                       </a>
 
                       {repo && (
